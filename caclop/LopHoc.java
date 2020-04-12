@@ -27,13 +27,13 @@ public class LopHoc {
     }
 
     public int inDSHS() {
-        System.out.println("Danh sach hoc sinh la :");
+        System.out.println("Thong tin hoc sinh vua nhap la :");
         QLDSHocSinh.inDS();
         return 1;
     }
     // in danh sach giao vien giang day
     public int inDSGVGD() {
-        System.out.println("Danh sach giao vien giang day:");
+        System.out.println("Thong tin giao vien giang day vua nhap la :");
         QLDSGiaoVien.inDS();
         return 1;
     }
